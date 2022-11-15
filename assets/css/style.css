@@ -11,35 +11,61 @@ body {
 
 header {
   height: 200px;
-  background-color: FFFFFF;
+  background-color: #ffffff;
   display: flex;
 }
 
 header > img {
   margin: auto 0 auto 50px;
-  width: 300px;
+  min-width: 300px;
 }
 
 header > h1 {
   font-family: sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 00;
   font-size: 64px;
   line-height: 96px;
-  margin: auto 0 auto 100px;
+  margin: auto 0 auto 200px;
 }
 .sidebar {
   min-width: 400px;
-  background-color: lightgray;
+  background-color: #00171f;
   display: flex;
+  border-radius: 0px 40px 0px 0px;
+}
+
+.navigation-links > ul {
+  list-style: none;
+  font-size: 48px;
+}
+
+.navigation-links > ul > li {
+  margin: 60px auto auto auto;
+}
+
+.navigation-links > ul > li > a {
+  color: white;
+  text-decoration: none;
 }
 
 .content {
   flex-grow: 1;
   display: flex;
-  background-color: lightblue;
+  background-color: ffffff;
 }
 
+.main-images {
+  margin-top: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-images > img {
+  width: 400px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
 .inner-text {
   font-weight: 700;
   font-size: 24px;
