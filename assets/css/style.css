@@ -11,20 +11,25 @@ body {
 
 header {
   height: 200px;
-  background-color: lightblue;
+  background-color: FFFFFF;
   display: flex;
 }
 
 header > img {
-  justify-content: center;
+  margin: auto 0 auto 50px;
   width: 300px;
-  margin-left: 50px;
 }
 
 header > h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  margin: auto 0 auto 100px;
 }
 .sidebar {
-  min-width: 300px;
+  min-width: 400px;
   background-color: lightgray;
   display: flex;
 }
@@ -32,6 +37,7 @@ header > h1 {
 .content {
   flex-grow: 1;
   display: flex;
+  background-color: lightblue;
 }
 
 .inner-text {
