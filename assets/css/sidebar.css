@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 150px;
+  width: 250px;
+  background-color: #00171f;
+  border-radius: 0 40px 0 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0 0 0;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 0 0 25px 0;
+}
+
+.nav-links .active {
+  color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+  font-size: 28px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: white;
+}

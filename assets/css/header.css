@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  height: 150px;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin: 0 300px 0 50px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 0;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: bold;
+}
