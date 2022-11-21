@@ -3,3 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 50px;
 }
+
+.content-image img{
+    min-width: 300px;
+}

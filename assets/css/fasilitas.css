@@ -1,0 +1,29 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.main-content img {
+    width: 600px;
+}
+
+.sub-content {
+    text-align: center;
+}
+
+.sub-content-title p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sub-content-subtitle{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+.sub-content-subtitle-left-section{
+    margin-right: 50px;
+    margin-left: 0px;
+}

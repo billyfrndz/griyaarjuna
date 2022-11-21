@@ -1,0 +1,19 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    width: 800px;
+    margin: 50px auto 0 auto;
+}
+
+.main-content p {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-content img {
+    width: 25px;
+    vertical-align: middle;
+}
